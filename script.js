@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 // Redirect to WhatsApp (optional)
                 const message = encodeURIComponent(`Hola, soy ${nombre}. Me interesa la evaluación gratuita de TCC. Mi email es ${email}.`);
-                const whatsappUrl = `https://wa.me/5638263959${replace(/\D/g, '')}?text=${message}`;
+                const whatsappUrl = `https://wa.me/5638263959?text=${message}`;
                 
                 // Show option to continue to WhatsApp
                 setTimeout(() => {
